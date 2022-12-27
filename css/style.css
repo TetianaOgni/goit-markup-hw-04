@@ -249,6 +249,32 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
+.strategy-item::before {
+  display: block;
+  content: "";
+  height: 112px;
+  /* outline: 1px solid red; */
+  background-color: var(--light-color);
+  border-radius: 4px;
+  /* background-image: url(../images/icon-strategi.svg); */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 8px;
+}
+
+.icon-strategy::before {
+  background-image: url(../images/icon-strategi.svg);
+}
+.icon-punctuality::before {
+  background-image: url(../images/icon-punctuality.svg);
+}
+.icon-diligence::before {
+  background-image: url(../images/icon-diligence.svg);
+}
+.icon-technologies::before {
+  background-image: url(../images/icon-technologies.svg);
+}
+
 /* -----Result----- */
 
 .result {
